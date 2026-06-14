@@ -1,0 +1,7 @@
+foxgirl_idle.png: -sw 16 -sh 16 -noflip -keep_duplicate_tiles -keep_palette_order
+foxgirl_run.png: -sw 16 -sh 16 -noflip -keep_duplicate_tiles -keep_palette_order
+foxgirl_jump.png: -sw 16 -sh 16 -noflip -keep_duplicate_tiles -keep_palette_order
+foxgirl_fall.png: -sw 16 -sh 16 -noflip -keep_duplicate_tiles -keep_palette_order
+foxgirl_crouch.png: -sw 16 -sh 16 -noflip -keep_duplicate_tiles -keep_palette_order
+
+test.png: -sw 8 -sh 8 -map -noflip -keep_duplicate_tiles -keep_palette_order
