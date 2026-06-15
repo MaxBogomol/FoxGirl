@@ -1,10 +1,15 @@
 ```
-"terminal.integrated.env.windows": {
-    "GBDK_HOME": "C:/gbdk"
+{
+    "terminal.integrated.env.windows": {
+        "GBDK_HOME": "C:/gbdk"
+    }
 }
 ```
 ```
-"terminal.integrated.env.linux": {
-    "GBDK_HOME": "/home/user/gbdk"
+{
+    "terminal.integrated.env.linux": {
+        "GBDK_HOME": "/home/deck/gbdk"
+    },
+    "C_Cpp.intelliSenseEngine": "Tag Parser"
 }
 ```
