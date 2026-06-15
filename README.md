@@ -8,7 +8,7 @@
 ```
 {
     "terminal.integrated.env.linux": {
-        "GBDK_HOME": "/home/deck/gbdk"
+        "GBDK_HOME": "/opt/gbdk"
     },
     "C_Cpp.intelliSenseEngine": "Tag Parser"
 }
