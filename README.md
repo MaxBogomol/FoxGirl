@@ -3,3 +3,8 @@
     "GBDK_HOME": "C:/gbdk"
 }
 ```
+```
+"terminal.integrated.env.linux": {
+    "GBDK_HOME": "/home/user/gbdk"
+}
+```

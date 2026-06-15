@@ -22,6 +22,29 @@
             ],
             "cStandard": "c11",
             "compilerPath": "${config:terminal.integrated.env.windows.GBDK_HOME}/bin/lcc.exe"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/obj",
+                "${config:terminal.integrated.env.linux.GBDK_HOME}/include/**"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/obj",
+                    "${config:terminal.integrated.env.linux.GBDK_HOME}/include/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "__PORT_sm83",
+                "__TARGET_gb"
+            ],
+            "cStandard": "c11",
+            "compilerPath": "${config:terminal.integrated.env.linux.GBDK_HOME}/bin/lcc"
         }
     ],
     "version": 4
